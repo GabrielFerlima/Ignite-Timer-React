@@ -1,6 +1,8 @@
+import { useState } from "react";
 import { HistoryContainer, HistoryList, Status } from "./styles";
 
 export function History() {
+
     return(
         <HistoryContainer>
             <h1>Meu histórico</h1>
