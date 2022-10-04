@@ -5,19 +5,19 @@ import { BrowserRouter } from "react-router-dom"
 
 import { defaultTheme } from "./styles/themes/default";
 
+
 export function App() {
 
-
-  return (
-    <ThemeProvider theme={defaultTheme}>
+ return (
+  <ThemeProvider theme={defaultTheme}>
       <BrowserRouter>
-      
         <Router />
-       
       </BrowserRouter>
       <GlobalStyle />
     </ThemeProvider>
   )
+  
 }
+
 
 
